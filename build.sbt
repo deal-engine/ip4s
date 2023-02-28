@@ -17,6 +17,8 @@ ThisBuild / githubWorkflowJavaVersions := Seq(JavaSpec.temurin("8"))
 
 ThisBuild / crossScalaVersions := List("2.12.17", "2.13.10", "3.2.2")
 
+ThisBuild / scalaVersion := "2.13.10"
+
 ThisBuild / tlVersionIntroduced := Map("3" -> "3.0.3")
 
 ThisBuild / doctestTestFramework := DoctestTestFramework.ScalaCheck
